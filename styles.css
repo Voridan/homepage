@@ -260,3 +260,16 @@ body {
 .additional-info__languages-item {
   color: var(--secondary-text-color);
 }
+
+.link {
+  display: block;
+  margin: 5px 0px;
+  color: #ff9a00;
+  transition: all 0.3s ease 0s;
+}
+
+@media (any-hover: hover) {
+  .link:hover {
+    color: #ffc268;
+  }
+}
